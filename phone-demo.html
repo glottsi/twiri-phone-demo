@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./phone-demo.css">
+  <title>twiri phone demo</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col">
+        <div class="demo-text-container">
+          <h2>a simple phone-style message display thing.</h2><br>
+          <p>this was made for the community project to demo an idea for displaying the site's quiz in this
+            phone-messaging style format.
+            <a
+              href="https://github.com/jinritv/Streamer-match-makers/">https://github.com/jinritv/Streamer-match-makers/</a>
+          </p>
+          <p>the original idea was that we change or add buttons at the bottom of the phone to answer each question, but
+            for this example i've just hardcoded the questions and answers. just press the button to move on to the
+            next. </p>
+          <p>i thought the phone-style concept was interesting at first, but now that i see it, seems like it'd feel weird having it
+            on a desktop website, and doesn't really fit the vibe of the twiri site so far. so, we probably won't end up using it for the interaction with Twiri anyways.</p>
+          <p>i hid the scrollbar but it should still scroll with the scrollwheel, provided there are enough messages on
+            the screen to overflow the view. btw i've only tested it with firefox.</p>
+          <p>the messages are read as pairs: a send message and a response message. once you send a message, there
+            will be a short delay before seing the 'person is typing' message. it will show for a few seconds to imitate
+            typing/thinking/whater. then it will display the other message, and let you send another one.</p>
+          <br>
+          <h3>made by glottsi</h3>
+          <h5>'fountainG' animation is from <a href="http://cssload.net">http://cssload.net</a></h5>
+        </div>
+      </div>
+      <div id="put-phone-here" class="col demo-container"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="phone-demo.js"></script>
+</body>
+</html>
